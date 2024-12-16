@@ -1,0 +1,39 @@
+.high-contrast {
+    filter: contrast(150%);
+  }
+  
+  .high-contrast img {
+    filter: contrast(120%);
+  }
+  
+  /* Estilos para foco visível */
+  *:focus {
+    outline: 3px solid #4299E1 !important;
+    outline-offset: 2px;
+  }
+  
+  /* Melhorar legibilidade */
+  body {
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Melhorar contraste de links */
+  a {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para skip links (navegação por teclado) */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }

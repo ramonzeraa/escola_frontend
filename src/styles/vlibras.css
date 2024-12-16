@@ -1,0 +1,40 @@
+div[vw].enabled {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 310px;
+  height: 220px;
+  z-index: 10000;
+}
+
+div[vw-access-button].active {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 10001;
+}
+
+div[vw-plugin-wrapper] {
+  width: 310px;
+  height: 220px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  z-index: 10000;
+}
+
+/* Removendo a caixa branca mas mantendo o avatar */
+div[vw-plugin-wrapper]:before {
+  display: none !important;
+}
+
+div[vw-plugin-wrapper] div.vw-plugin-top-wrapper {
+  width: 100%;
+  height: 100%;
+}

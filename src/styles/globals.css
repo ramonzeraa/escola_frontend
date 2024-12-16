@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos de acessibilidade adicionais */
+:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Melhorar legibilidade */
+body {
+  @apply antialiased;
+}
+
+/* Aumentar espaçamento para melhor leitura */
+p {
+  @apply leading-relaxed;
+}
